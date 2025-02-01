@@ -1,0 +1,86 @@
+body {
+    width: 100vw;
+    font-family: 'Montserrat Alternates';
+    font-weight: 400;
+    color: #060606;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+}
+main {
+    padding-top: 132px;
+    margin: auto;
+    text-align: center;
+}
+.main-image {
+    margin-bottom: 48px;
+}
+.main-image img {
+    display: block;
+    width: 72.222222%;
+    margin-bottom: 48px;
+    margin: auto;
+}
+.welcome {
+    margin-bottom: 48px;
+    padding: 72px 124px;
+    background-color: #CCF2F4;
+}
+.welcome div {
+    width: 72.222222%;
+    margin: auto;
+}
+.about {
+    display: flex;
+    width: 72.22222222%;
+    justify-content: center;
+    margin: auto;
+}
+.about-img-container {
+    width: 50%;
+    align-items: center;
+}
+.about-img-container img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    
+}
+.about-cont {
+    width: 50%;
+    text-align: left;
+    padding-left: 104px;
+    padding-right: 16px;
+}
+h1 span {
+    text-decoration: underline #34E6F6;
+
+}
+.advent1 {
+    text-align: center;
+    display: flex;
+}
+.advent2 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.advent1 div {
+    width: 50%;
+}
+.advent2 div {
+    width: 50%;
+}
+h3 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #34E6F6;
+}
+.about-cont button {
+    margin: 40px auto;
+    display: block;
+}
+
