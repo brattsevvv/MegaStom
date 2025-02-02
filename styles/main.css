@@ -38,6 +38,7 @@ main {
     width: 72.22222222%;
     justify-content: center;
     margin: auto;
+    margin-bottom: 48px;
 }
 .about-img-container {
     width: 50%;
@@ -56,8 +57,19 @@ main {
     padding-right: 16px;
 }
 h1 span {
-    text-decoration: underline #34E6F6;
-
+    /* text-decoration: underline #34E6F6; */
+    position: relative;
+}
+h1 span:after{
+    content: "";
+    display: block;
+    width: calc(100% - 5px);
+    height: 4px;
+    border-radius: 2px;
+    position: absolute;
+    top: calc(100% - 3px);
+    left: 5px;
+    background-color: #34E6F6;
 }
 .advent1 {
     text-align: center;
@@ -74,7 +86,7 @@ h1 span {
 .advent2 div {
     width: 50%;
 }
-h3 {
+h4 {
     font-weight: 700;
     font-size: 32px;
     color: #34E6F6;
@@ -83,4 +95,16 @@ h3 {
     margin: 40px auto;
     display: block;
 }
-
+.mission {
+    margin-bottom: 48px;
+    padding: 72px 124px;
+    background-color: #CCF2F4;
+    margin-bottom: 48px;
+}
+.mission div {
+    width: 72.222222%;
+    margin: auto;
+}
+h3 {
+    font: 700 24px;
+}
